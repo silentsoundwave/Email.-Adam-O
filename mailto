@@ -1,0 +1,31 @@
+//This is close it at least says:
+the form is being submitted using e-mail.
+Submitting this form will reveal your e-mail address to the recipient 
+and will send the form data without encrypting it for privacy. You may continue or cancel this submission.
+OK CANCEL
+OK Could not perform this operation because the default mail client is not properly installed.
+
+<html>
+
+
+<?php 
+
+include 'get.php';
+$arr = image;
+$_POST = id;
+
+fopen("c:\\wamp\www\new\nnew\index.php", "r");
+fclose($f);
+
+?>
+
+<input type="text/message" size="80">
+<form method="post" action="mailto:myemailaddress@outlook.com" >
+<input type="submit" value="Submit" name="Send"> 
+<form>
+<input type="file" value="send" name="Id"> 
+<input type="submit" action ="post.php" method ="post" value="send">
+</form>
+
+</html>
+
